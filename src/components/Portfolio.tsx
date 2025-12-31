@@ -7,10 +7,10 @@ const Portfolio = () => {
   const works = [
     {
       id: 1,
-      title: 'Reps WIth Jazz',
+      title: 'Reps With Jazz',
       category: 'Website Development',
       description:
-        'Built a fully responsive life coach portfolio website for Mr. JazzFerguson- professional basketball player, with essential features.Also added image gallery as per client demand',
+        'Built a fully responsive life coach portfolio website for Mr. Jazz Ferguson- professional basketball player, with essential features. Also added image gallery as per client demand',
       highlights: ['Responsive Design', 'Session Booking', 'Image Gallery'],
       buttonText: 'Visit Website',
       buttonLink: 'https://www.repswithjazz.co',
@@ -32,7 +32,7 @@ const Portfolio = () => {
       title: 'Head2Heart',
       category: 'Website Development',
       description:
-        'Developed a stunning e-commerce plus coaching booking website showcasing creative work with smooth animations and interactive elements.Integrated modern tech stack for high performance',
+        'Developed a stunning e-commerce plus coaching booking website showcasing creative work with smooth animations and interactive elements. Integrated modern tech stack for high performance.',
       highlights: ['Animations', 'Portfolio Showcase', 'High Performance'],
       buttonText: 'Visit Website',
       buttonLink: 'https://www.head2heart.co.nz/',
@@ -110,7 +110,7 @@ const Portfolio = () => {
               : 'border-slate-700/50'
           } overflow-hidden transition-all duration-300 p-8 sm:p-12`}>
             <div className="flex items-start gap-4 mb-6">
-              <div className="text-5xl">{currentWork.icon}</div>
+              
               <div className="flex-1">
                 <span className="inline-block px-4 py-1 rounded-full bg-cyan-500/20 text-cyan-300 text-sm font-semibold mb-3 border border-cyan-500/30">
                   {currentWork.category}
