@@ -24,12 +24,7 @@ const Footer = () => {
     'Social Media Management',
   ];
 
-  const socialLinks = [
-    { icon: Facebook, href: '#', label: 'Facebook' },
-    { icon: Twitter, href: '#', label: 'Twitter' },
-    { icon: Instagram, href: '#', label: 'Instagram' },
-    { icon: Linkedin, href: '#', label: 'LinkedIn' },
-  ];
+  
 
   return (
     <footer className="bg-slate-900 border-t border-slate-800">
@@ -42,21 +37,7 @@ const Footer = () => {
             <p className="text-gray-400 mb-6 leading-relaxed">
               Transforming ideas into exceptional digital experiences. Your trusted partner for innovative digital solutions.
             </p>
-            <div className="flex gap-4">
-              {socialLinks.map((social, index) => {
-                const Icon = social.icon;
-                return (
-                  <a
-                    key={index}
-                    href={social.href}
-                    aria-label={social.label}
-                    className="w-10 h-10 rounded-lg bg-slate-800 flex items-center justify-center text-gray-400 hover:text-cyan-400 hover:bg-slate-700 transition-all duration-300"
-                  >
-                    <Icon size={20} />
-                  </a>
-                );
-              })}
-            </div>
+            
           </div>
 
           <div>
@@ -92,25 +73,25 @@ const Footer = () => {
               <li className="flex items-start gap-3">
                 <Mail size={18} className="text-cyan-400 mt-1 flex-shrink-0" />
                 <a
-                  href="mailto:contact@brnexus.com"
+                  href="mailto:atharvragdwal05@gmail.com"
                   className="text-gray-400 hover:text-cyan-400 transition-colors"
                 >
-                  contact@brnexus.com
+                  atharvragdwal05@gmail.com
                 </a>
               </li>
               <li className="flex items-start gap-3">
                 <Phone size={18} className="text-cyan-400 mt-1 flex-shrink-0" />
                 <a
-                  href="tel:+1234567890"
+                  href="tel:+918447060375"
                   className="text-gray-400 hover:text-cyan-400 transition-colors"
                 >
-                  +1 (234) 567-890
+                   +91 8447060375
                 </a>
               </li>
               <li className="flex items-start gap-3">
                 <MapPin size={18} className="text-cyan-400 mt-1 flex-shrink-0" />
                 <span className="text-gray-400">
-                  123 Digital Street, Tech City, TC 12345
+                  Delhi,India
                 </span>
               </li>
             </ul>
@@ -122,20 +103,7 @@ const Footer = () => {
             <p className="text-gray-400 text-sm text-center md:text-left">
               &copy; {currentYear} BR Nexus. All rights reserved.
             </p>
-            <div className="flex gap-6 text-sm">
-              <a
-                href="#"
-                className="text-gray-400 hover:text-cyan-400 transition-colors"
-              >
-                Privacy Policy
-              </a>
-              <a
-                href="#"
-                className="text-gray-400 hover:text-cyan-400 transition-colors"
-              >
-                Terms of Service
-              </a>
-            </div>
+           
           </div>
         </div>
       </div>

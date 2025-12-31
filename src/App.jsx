@@ -2,7 +2,7 @@ import { Toaster } from 'react-hot-toast';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Services from './components/Services';
-import Testimonials from './components/Testimonials';
+import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import WhatsAppButton from './components/WhatsAppButton';
 import Footer from './components/Footer';
@@ -36,7 +36,7 @@ function App() {
       <Navbar />
       <Hero />
       <Services />
-      <Testimonials />
+      <Portfolio />
       <Contact />
       <WhatsAppButton />
       <Footer />

@@ -108,10 +108,9 @@ const Contact = () => {
                   <div>
                     <p className="text-gray-400 text-sm">Call Us</p>
                     <a
-                      href="tel:+1234567890"
                       className="text-white hover:text-cyan-400 transition-colors"
                     >
-                      +91 8447060375, +91 87502 01229
+                      +91 8447060375,+91 87555 61361
                     </a>
                   </div>
                 </div>

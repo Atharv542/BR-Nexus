@@ -25,7 +25,7 @@ const Navbar = () => {
   const menuItems = [
     { label: 'Home', id: 'home' },
     { label: 'Services', id: 'services' },
-    { label: 'Testimonials', id: 'testimonials' },
+    { label: 'Our Work', id: 'portfolio' },
     { label: 'Contact', id: 'contact' },
   ];
 
@@ -53,7 +53,7 @@ const Navbar = () => {
               <button
                 key={item.id}
                 onClick={() => scrollToSection(item.id)}
-                className="text-gray-300 hover:text-cyan-400 transition-colors duration-300 font-medium"
+                className="text-gray-300 cursor-pointer hover:text-cyan-400 transition-colors duration-300 font-medium"
               >
                 {item.label}
               </button>
