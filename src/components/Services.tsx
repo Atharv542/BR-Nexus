@@ -4,9 +4,9 @@ const Services = () => {
   const services = [
     {
       icon: Code,
-      title: 'Website Development',
+      title: 'Website & App Development',
       description:
-        'Custom-built, responsive websites that combine stunning design with powerful functionality. Built with modern technologies for optimal performance.',
+        'Custom-built, responsive websites and apps that combine stunning design with powerful functionality. Built with modern technologies for optimal performance.',
       gradient: 'from-cyan-500 to-blue-600',
     },
     {
