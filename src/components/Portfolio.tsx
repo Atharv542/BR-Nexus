@@ -5,18 +5,7 @@ const Portfolio = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const works = [
-     {
-      id: 1,
-      title: 'Legaro',
-      category: 'Website Development',
-      description:
-        'Built a fully premium website for Legaro Pvt. Ltd. which gives an attractive and seamless user-experience. ',
-      highlights: ['Premium Design', 'Kidfluencer-Deck', 'User-Experience'],
-      buttonText: 'Visit Website',
-      buttonLink: 'https://legaro-two.vercel.app/',
-      icon: '🛍️',
-    },
-     {
+    {
       id: 1,
       title: 'The Elite Minndset Program',
       category: 'Website Development',
@@ -27,8 +16,20 @@ const Portfolio = () => {
       buttonLink: 'https://www.elitemindsetprogram.com/',
       icon: '🛍️',
     },
-    {
+     {
       id: 2,
+      title: 'Legaro',
+      category: 'Website Development',
+      description:
+        'Built a premium website for Legaro Pvt. Ltd. which gives an attractive and seamless user-experience. ',
+      highlights: ['Premium Design', 'Kidfluencer-Deck', 'User-Experience'],
+      buttonText: 'Visit Website',
+      buttonLink: 'https://legaro-two.vercel.app/',
+      icon: '🛍️',
+    },
+     
+    {
+      id: 3,
       title: 'Reps With Jazz',
       category: 'Website Development',
       description:
@@ -39,7 +40,7 @@ const Portfolio = () => {
       icon: '🛍️',
     },
     {
-      id: 3,
+      id: 4,
       title: 'InnerBloom Journey',
       category: 'Website Development',
       description:
@@ -50,7 +51,7 @@ const Portfolio = () => {
       icon: '🏢',
     },
      {
-      id: 4,
+      id: 5,
       title: 'Wisdom Inside Out',
       category: 'Website Development',
       description:
@@ -61,7 +62,7 @@ const Portfolio = () => {
       icon: '🛍️',
     },
     {
-      id: 5,
+      id: 6,
       title: 'Head2Heart',
       category: 'Website Development',
       description:
@@ -72,7 +73,7 @@ const Portfolio = () => {
       icon: '🎨',
     },
     {
-      id: 6,
+      id: 7,
       title: 'Wisdom Inside Out',
       category: 'Instagram & YouTube',
       description:
@@ -84,7 +85,7 @@ const Portfolio = () => {
     },
 
     {
-      id: 7,
+      id: 8,
       title: 'Next Can Be You',
       category: 'Your Project',
       description:
