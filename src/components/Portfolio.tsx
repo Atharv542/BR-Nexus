@@ -5,8 +5,30 @@ const Portfolio = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const works = [
-    {
+     {
       id: 1,
+      title: 'Legaro',
+      category: 'Website Development',
+      description:
+        'Built a fully premium website for Legaro Pvt. Ltd. which gives an attractive and seamless user-experience. ',
+      highlights: ['Premium Design', 'Kidfluencer-Deck', 'User-Experience'],
+      buttonText: 'Visit Website',
+      buttonLink: 'https://legaro-two.vercel.app/',
+      icon: '🛍️',
+    },
+     {
+      id: 1,
+      title: 'The Elite Minndset Program',
+      category: 'Website Development',
+      description:
+        'Built a fully responsive website for Jazz Ferguson and Mark Colbourne for their elite mindset program centerd towards the school going students to excel in their life',
+      highlights: ['Responsive Design', 'Session Booking', 'Premium Look'],
+      buttonText: 'Visit Website',
+      buttonLink: 'https://www.elitemindsetprogram.com/',
+      icon: '🛍️',
+    },
+    {
+      id: 2,
       title: 'Reps With Jazz',
       category: 'Website Development',
       description:
@@ -17,7 +39,7 @@ const Portfolio = () => {
       icon: '🛍️',
     },
     {
-      id: 2,
+      id: 3,
       title: 'InnerBloom Journey',
       category: 'Website Development',
       description:
@@ -27,8 +49,19 @@ const Portfolio = () => {
       buttonLink: 'https://www.healgrowletgoandevolvewithsalma.com/',
       icon: '🏢',
     },
+     {
+      id: 4,
+      title: 'Wisdom Inside Out',
+      category: 'Website Development',
+      description:
+        'Built a fully responsive life coach portfolio website for Leena- professional lifecoach, with all sections required in a website',
+      highlights: ['Responsive Design', 'Session Booking'],
+      buttonText: 'Visit Website',
+      buttonLink: 'https://leena-website-eta.vercel.app/',
+      icon: '🛍️',
+    },
     {
-      id: 3,
+      id: 5,
       title: 'Head2Heart',
       category: 'Website Development',
       description:
@@ -39,7 +72,7 @@ const Portfolio = () => {
       icon: '🎨',
     },
     {
-      id: 4,
+      id: 6,
       title: 'Wisdom Inside Out',
       category: 'Instagram & YouTube',
       description:
@@ -49,8 +82,9 @@ const Portfolio = () => {
       buttonLink: 'https://www.youtube.com/@TheWisdomInsideOut',
       icon: '📱',
     },
+
     {
-      id: 5,
+      id: 7,
       title: 'Next Can Be You',
       category: 'Your Project',
       description:
